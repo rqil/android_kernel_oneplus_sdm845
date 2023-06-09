@@ -22,7 +22,7 @@ struct sock *nl_sk;
 static int fd = -1;
 static struct workqueue_struct *smg_workwq;
 static struct work_struct smg_work;
-
+define NETLINK_ADB=y
 #define MAX_MSGSIZE 1024
 static int message_state = -1;
 
